@@ -1,6 +1,6 @@
     
 header{
-    background-color: aliceblue;
+    background-color:aliceblue;
     height: 50px;
     padding: 10px;
     border-radius: 8px;
@@ -34,6 +34,7 @@ nav ul li a{
 .Under{
     text-align: center;
     font-size: medium;
+    font-family: cursive;
     background-color: white;
 }
 
@@ -46,6 +47,7 @@ nav ul li a{
     border-width: 2px;
     border-style: solid;
     border-color: black;
+    background-color: aliceblue;
     border-radius: 20px;
         text-decoration: none;
     color: black;
@@ -61,7 +63,7 @@ a {
 }
 
 footer {
-    position: fixed;
+    position: static;
     left: 0;
     bottom: 0;
     width: 100%;
