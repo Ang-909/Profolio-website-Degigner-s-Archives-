@@ -34,7 +34,7 @@ nav ul li a{
 .Under{
     text-align: center;
     font-size: medium;
-    font-family: cursive;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     background-color: white;
 }
 
@@ -49,13 +49,14 @@ nav ul li a{
     border-color: black;
     background-color: aliceblue;
     border-radius: 20px;
-        text-decoration: none;
+    text-decoration: none;
     color: black;
 }
 
 .login{
     font-size: large;
 }
+
 a {
     text-decoration: none;
     color: black;
@@ -63,11 +64,13 @@ a {
 }
 
 footer {
-    position: static;
+    position: fixed;
     left: 0;
     bottom: 0;
+    max-height: fit-content;
     width: 100%;
     background-color: aliceblue;
     color: black;
     text-align: center;
+
 }
