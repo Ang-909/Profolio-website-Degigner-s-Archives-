@@ -40,11 +40,12 @@ nav ul li a{
 
 .SignIn{
     text-align: center;
-    height: 200px;
-    width: 600px;
-    padding: 70px 5px 60px 5px;
+    font-size: larger;
+    height: 150px;
+    width: 450px;
+    padding: 60px 5px 60px 5px;
     margin: auto;
-    border-width: 2px;
+    border-width: .5px;
     border-style: solid;
     border-color: black;
     background-color: aliceblue;
@@ -67,7 +68,7 @@ footer {
     position: fixed;
     left: 0;
     bottom: 0;
-    max-height: fit-content;
+    height: 150px;
     width: 100%;
     background-color: aliceblue;
     color: black;
