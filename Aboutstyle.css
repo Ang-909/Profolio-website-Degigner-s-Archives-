@@ -33,11 +33,11 @@ nav ul li a {
 }
 
 footer {
-    position: relative;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    height: 150px;
     width: 100%;
     background-color: aliceblue;
     color: black;
     text-align: center;
-    padding: 20px 0;
-    margin-top: 100px;
-}
