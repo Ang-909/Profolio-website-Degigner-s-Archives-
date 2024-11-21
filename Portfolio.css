@@ -10,7 +10,8 @@ header {
     padding: 10px;
     border-radius: 8px;
     text-align: center;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /*adds shaddow under nav bar, make sure all css has this!*/    font-family: Georgia, 'Times New Roman', Times, serif;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 nav ul {
