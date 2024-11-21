@@ -30,6 +30,11 @@ nav ul li a {
     color: black;
 }
 
+a {
+    display: block;
+    text-decoration: none;
+}
+
 .container {
     display: flex;
     flex-direction: column;
@@ -52,7 +57,7 @@ nav ul li a {
     justify-content: center;
     align-items: center;
     background-color: lavender; 
-    color: white;
+    color: darkblue;
     border-radius: 5px;
     font-size: 1.5rem;
     width: 300px; 
@@ -62,4 +67,14 @@ nav ul li a {
 
 .block:hover {
     transform: scale(1.2); 
+}
+
+footer {
+    position: relative;
+    width: 100%;
+    background-color: aliceblue;
+    color: black;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 100px;
 }
