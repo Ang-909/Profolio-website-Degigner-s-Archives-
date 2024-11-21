@@ -1,20 +1,33 @@
+/* Resetting margins and padding for all elements */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;    
+}
     
-header{
+header {
     background-color: aliceblue;
     height: 50px;
     padding: 10px;
     border-radius: 8px;
     text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Optional shadow */
 }
 
-nav ul li{
+nav ul {
     list-style: none;
-    display: inline-block;
-    margin-left: 40px;
-
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center; /* Center the list items horizontally */
 }
 
-nav ul li a{
+nav ul li {
+    margin-left: 40px; /* Space between nav items */
+}
+
+nav ul li a {
     text-decoration: none;
     color: black;
 }
@@ -34,26 +47,30 @@ nav ul li a{
 .Under{
     text-align: center;
     font-size: medium;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     background-color: white;
 }
 
 .SignIn{
     text-align: center;
-    height: 200px;
-    width: 600px;
-    padding: 70px 5px 60px 5px;
+    font-size: larger;
+    height: 150px;
+    width: 450px;
+    padding: 60px 5px 60px 5px;
     margin: auto;
-    border-width: 2px;
+    border-width: .5px;
     border-style: solid;
     border-color: black;
+    background-color: aliceblue;
     border-radius: 20px;
-        text-decoration: none;
+    text-decoration: none;
     color: black;
 }
 
 .login{
     font-size: large;
 }
+
 a {
     text-decoration: none;
     color: black;
@@ -64,8 +81,10 @@ footer {
     position: fixed;
     left: 0;
     bottom: 0;
+    height: 150px;
     width: 100%;
     background-color: aliceblue;
     color: black;
     text-align: center;
+
 }
