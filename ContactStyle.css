@@ -1,21 +1,33 @@
-    
-header{
+/* Resetting margins and padding for all elements */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;    
+}
+   
+header {
     background-color: aliceblue;
     height: 50px;
     padding: 10px;
     border-radius: 8px;
     text-align: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Optional shadow */
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
-nav ul li{
+nav ul {
     list-style: none;
-    display: inline-block;
-    margin-left: 40px;
-
-
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center; /* Center the list items horizontally */
 }
 
-nav ul li a{
+nav ul li {
+    margin-left: 40px; /* Space between nav items */
+}
+
+nav ul li a {
     text-decoration: none;
     color: black;
 }
