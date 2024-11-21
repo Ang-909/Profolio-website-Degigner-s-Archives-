@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>My First Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- html project -->
+
+    <div class="header1">
+        <h1>Send us your Feedback!!</h1>
+    </div>
+
+    <div class="paragraph">
+    <p>Thank you for taking the time to complete this short questionnaire about our website! Answer as many questions as you can, and please don't hesitate to go into detail!</p>
+    </div>
+
+    <form action="/server.php" method="POST">
+        <div class="Question1">
+        <h4>What is your major?</h4>
+        <select name="major" id="major">
+            <option value="">Choose your Major here</option>
+            <option value="Interior Design">Interior Design</option>
+            <option value="Architecture">Architecture</option>
+            <option value="Digital Design">Digital Design</option>
+        </select>
+
+        <h4>Would you use a platform that helps designers like architects, interior designers, and digital designers, etc. showcase their resume and work? It would also help you get connected with firms and future employers, as they would be able to view your profile and show interest.</h4>
+        <select name="YesOrNo" id="YesOrNo">
+            <option value="">Select</option>
+            <option value="Yes">Yes</option>
+            <option value="No">No</option>
+        </select>
+
+        <h4>What would you like to see included in this platform? EX: internship opportunities, messages/email space to contact employers, templates, etc.</h4>
+        <textarea placeholder="Please Type Here"></textarea>
+
+        <button type="submit" class="button" a href="home.html">Submit</button>
+        
+    </div>
+    </form>
+
+</body>
+
+</html>
