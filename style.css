@@ -1,8 +1,8 @@
 .header1{transition:all;
     border-width: 2px;
     border-style: solid;
-    border-color: #89CFF0;
-    background-color: #89CFF0;
+    border-color: aliceblue;
+    background-color: aliceblue;
     text-align: center;}
 
 .button{transition: all;
