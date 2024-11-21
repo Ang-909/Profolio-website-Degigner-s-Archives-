@@ -1,0 +1,15 @@
+.header1{transition:all;
+    border-width: 2px;
+    border-style: solid;
+    border-color: #89CFF0;
+    background-color: #89CFF0;
+    text-align: center;}
+
+.button{transition: all;
+        text-align: center;
+        transform:translate(-80px,40px)}
+
+.paragraph{transition:all;
+        text-align: center;}
+
+.Question1{text-align: center;}
