@@ -11,7 +11,7 @@ header {
     border-radius: 8px;
     text-align: center;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Optional shadow */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
 nav ul {
@@ -19,11 +19,11 @@ nav ul {
     padding: 0;
     margin: 0;
     display: flex;
-    justify-content: center; /* Center the list items horizontally */
+    justify-content: center;
 }
 
 nav ul li {
-    margin-left: 40px; /* Space between nav items */
+    margin-left: 40px;
 }
 
 nav ul li a {
@@ -84,7 +84,6 @@ nav ul li a {
     color: #555;
 }
 
-/* Projects Section */
 .projects {
     text-align: center;
     padding: 50px 20px;
@@ -97,7 +96,7 @@ nav ul li a {
     margin-bottom: 30px;
 }
 
-/* Grid layout for projects */
+
 .grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -106,19 +105,19 @@ nav ul li a {
     margin: 0 auto;
 }
 
-/* Each project block */
+
 .project-item {
     background-color: #fff;
 }
 
-/* Project Image */
+
 .project-item .image {
     background-size: cover;
     background-position: center;
     height: 200px;
 }
 
-/* Text inside the project block */
+
 .project-item .text {
     padding: 20px;
 }
