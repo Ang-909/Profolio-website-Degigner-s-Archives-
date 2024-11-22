@@ -32,6 +32,11 @@ nav ul li a {
     color: black;
 }
 
+.phrase{
+    background-color: antiquewhite;
+    width:100px;
+    height: 50px;
+}
 
 footer {
     position: fixed;
@@ -42,4 +47,9 @@ footer {
     background-color: aliceblue;
     color: black;
     text-align: center;
+}
+
+.resumeImage{
+    position:absolute
+    
 }
