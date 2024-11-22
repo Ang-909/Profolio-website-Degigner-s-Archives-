@@ -10,6 +10,56 @@
         transform:translate(-80px,40px)}
 
 .paragraph{transition:all;
-        text-align: center;}
+        text-align: center;
+        font-family:Georgia, 'Times New Roman', Times, serif}
 
-.Question1{text-align: center;}
+.Question1{text-align: center;
+    font-family:Georgia, 'Times New Roman', Times, serif}
+
+.header{transition:all;
+    background-color: aliceblue;
+    height: 50px;
+    padding: 10px;
+    border-radius: 8px;
+    text-align: center;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /*optional shadow*/;
+    border-bottom: 3px solid floralwhite;
+    }
+
+.nav ul {
+    transition: all;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center; /* Center the list items horizontally */
+}
+
+.nav ul li{
+    transition: all;
+    margin-left: 40px; /* Space between nav items */
+}
+
+.nav ul li a{
+    transition:all;
+    text-decoration: none;
+    color: black;
+}
+
+.website{
+    transition:all;
+    transform:translateX(-950px);
+    font-family: 'Courier New', monospace;
+}
+
+.Login{
+    transition:all;
+    transform:translateX(-150px)
+}
+
+.search{
+    transition:all;
+    transform:translateX(-30px)
+}
+
