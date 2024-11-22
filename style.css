@@ -3,7 +3,8 @@
     border-style: solid;
     border-color: aliceblue;
     background-color: aliceblue;
-    text-align: center;}
+    text-align: center;
+  }
 
 .button{transition: all;
         text-align: center;
