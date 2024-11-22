@@ -1,4 +1,4 @@
-/* Resetting margins and padding for all elements */
+
 * {
     margin: 0;
     padding: 0;
@@ -12,7 +12,7 @@ header {
     border-radius: 8px;
     text-align: center;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Optional shadow */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
 nav ul {
@@ -20,11 +20,11 @@ nav ul {
     padding: 0;
     margin: 0;
     display: flex;
-    justify-content: center; /* Center the list items horizontally */
+    justify-content: center;
 }
 
 nav ul li {
-    margin-left: 40px; /* Space between nav items */
+    margin-left: 40px;
 }
 
 nav ul li a {
@@ -66,9 +66,18 @@ nav ul li a {
 
 
 .resume{
+
+width: 700px;
+height: 300px;
+display: flex;
+justify-content: center;
+
+align-items: center;
    background-color: aliceblue;
    text-align: center;
-   
+   border-radius: 15px;
+   padding: 20px
+  
 }
 
 .share{
@@ -78,27 +87,49 @@ nav ul li a {
     color:aliceblue;
     font-size: medium;
     display: inline-block;
-    
+   ;
 }
 
 .other {
   background-color:cornsilk;
   text-align: center;
-  height: 150px;
+  height: 160px;
   border-radius: 0vb;
+  width: 800px;
+display: flex;
+justify-content: center;
+border-radius: 15px;
+padding: 20px
+
+
 }
 
 
+
 .bio{
-    background-color: aliceblue;
-    text-align: center;
+    width: 700px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
     
+    align-items: center;
+       background-color: aliceblue;
+       text-align: center;
+       border-radius: 15px;
+       padding: 20px
  }
 
  .questions{
-    background-color:cornsilk;
-    text-align: center;
-    height: 300px;
+    background-color:aliceblue;
+    text-align: start;
+    height: 100px;
     border-radius: 0vb;
+    width: 700px;
+    display: flex;
+justify-content: center;
+border-radius: 15px;
+padding: 20px;
+word-wrap: break-word;
+box-sizing: border-box;
 
  }
