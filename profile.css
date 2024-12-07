@@ -67,7 +67,7 @@ nav ul li a {
 
 .resume{
 
-width: 700px;
+width:1000px;
 height: 300px;
 display: flex;
 justify-content: center;
@@ -95,7 +95,7 @@ align-items: center;
   text-align: center;
   height: 160px;
   border-radius: 0vb;
-  width: 800px;
+  width:1000px;
 display: flex;
 justify-content: center;
 border-radius: 15px;
@@ -107,7 +107,7 @@ padding: 20px
 
 
 .bio{
-    width: 700px;
+    width: 1000px;
     height: 300px;
     display: flex;
     justify-content: center;
@@ -124,7 +124,7 @@ padding: 20px
     text-align: start;
     height: 100px;
     border-radius: 0vb;
-    width: 700px;
+    width: 1000px;
     display: flex;
 justify-content: center;
 border-radius: 15px;
