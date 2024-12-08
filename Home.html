@@ -16,7 +16,7 @@
                 <li><a href="profile.html">Profile</a></li>
                 <li><a href="About.html">About</a></li>
                 <li><a href="ContactUs.html">Contact Us</a></li>
-                <li><a href="feedback.html">feedback</a></li>
+                <li><a href="feedback.html">Feedback</a></li>
                 <li><input type="text" placeholder="Search"></li>
                 <li><button>Search</button></li>
             </ul>
@@ -24,7 +24,7 @@
     </header>
     
 <div class="Webtitle">
-    <h1>Designer's Archive</h1>
+    <h1 id="Title">Designer's Archive</h1>
     <p class="Under">Architecture, Interior Design, Urban Planning</p>
     </div>
 
@@ -32,11 +32,13 @@
     
     <p class="login">Log In</p>
     <label>
-        <input type="Username" name="Username" id="Username" placeholder="Enter Username or Email">
+        <input type="text" name="username" id="username" placeholder="Enter Username"> 
     </label>
     <br>
     <label>
         <input type="password" name="Password" id="Password" placeholder="Enter Password">
+        <br>
+        <button onclick="updateTitle()" fdprocessedid="iahxns">Log In</button>
         <p> New to the Archive?</p>
         <a href="google.com" class="createacc">Click here to create an account</a>
    
@@ -55,6 +57,6 @@
         <li>Nicole Tran-->nt367@njit.edu</li>
     </ul> </pre></p>
 </footer>
-
+    <script src="homepage.js"></script>
 </body>
 </html>
